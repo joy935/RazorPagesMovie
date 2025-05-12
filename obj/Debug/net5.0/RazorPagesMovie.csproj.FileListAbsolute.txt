@@ -1,0 +1,7 @@
+/Users/veihitupai/Documents/GitHub/RazorPagesWebApp/RazorPagesMovie/obj/Debug/net5.0/RazorPagesMovie.GeneratedMSBuildEditorConfig.editorconfig
+/Users/veihitupai/Documents/GitHub/RazorPagesWebApp/RazorPagesMovie/obj/Debug/net5.0/RazorPagesMovie.AssemblyInfoInputs.cache
+/Users/veihitupai/Documents/GitHub/RazorPagesWebApp/RazorPagesMovie/obj/Debug/net5.0/RazorPagesMovie.AssemblyInfo.cs
+/Users/veihitupai/Documents/GitHub/RazorPagesWebApp/RazorPagesMovie/obj/Debug/net5.0/RazorPagesMovie.csproj.CoreCompileInputs.cache
+/Users/veihitupai/Documents/GitHub/RazorPagesWebApp/RazorPagesMovie/obj/Debug/net5.0/RazorPagesMovie.MvcApplicationPartsAssemblyInfo.cache
+/Users/veihitupai/Documents/GitHub/RazorPagesWebApp/RazorPagesMovie/obj/Debug/net5.0/RazorPagesMovie.RazorAssemblyInfo.cache
+/Users/veihitupai/Documents/GitHub/RazorPagesWebApp/RazorPagesMovie/obj/Debug/net5.0/RazorPagesMovie.RazorAssemblyInfo.cs
