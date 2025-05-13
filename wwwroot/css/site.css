@@ -20,3 +20,11 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+input, textarea, select {
+  margin: 0.1rem;
+}
+
+form {
+  margin: 0.5rem;
+}

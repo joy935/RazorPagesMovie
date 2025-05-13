@@ -30,6 +30,9 @@ namespace RazorPagesMovie.Pages.Movies
         [BindProperty(SupportsGet = true)]
         public string? MovieGenre { get; set; }
 
+        [BindProperty(SupportsGet = true)]
+        public int? SearchYear { get; set; }
+
         public async Task OnGetAsync()
         {
             // Use LINQ to get list of genres.
@@ -42,7 +45,12 @@ namespace RazorPagesMovie.Pages.Movies
 
             if (!string.IsNullOrEmpty(SearchString))
             {
-                movies = movies.Where(s => s.Title.Contains(SearchString));
+                movies = movies.Where(x => x.Title.Contains(SearchString));
+            }
+
+            if (SearchYear.HasValue)
+            {
+                movies = movies.Where(x => x.ReleaseDate.Year >= SearchYear.Value);
             }
 
             if (!string.IsNullOrEmpty(MovieGenre))
